@@ -129,7 +129,6 @@ public class CannyFilter extends ImageFilterBase {
                         }else{
                             if (M[x][y] > threshold1){
                                 g_l[x][y] = M[x][y];
-                                g_h[x][y] = M[x][y];
                             }
                             if (M[x][y] > threshold2)
                                 g_h[x][y] = M[x][y];
@@ -141,7 +140,6 @@ public class CannyFilter extends ImageFilterBase {
                         }else{
                             if (M[x][y] > threshold1){
                                 g_l[x][y] = M[x][y];
-                                g_h[x][y] = M[x][y];
                             }
                             if (M[x][y] > threshold2)
                                 g_h[x][y] = M[x][y];
@@ -153,7 +151,6 @@ public class CannyFilter extends ImageFilterBase {
                         }else{
                             if (M[x][y] > threshold1){
                                 g_l[x][y] = M[x][y];
-                                g_h[x][y] = M[x][y];
                             }
                             if (M[x][y] > threshold2)
                                 g_h[x][y] = M[x][y];
@@ -165,7 +162,6 @@ public class CannyFilter extends ImageFilterBase {
                         }else{
                             if (M[x][y] > threshold1){
                                 g_l[x][y] = M[x][y];
-                                g_h[x][y] = M[x][y];
                             }
                             if (M[x][y] > threshold2)
                                 g_h[x][y] = M[x][y];
